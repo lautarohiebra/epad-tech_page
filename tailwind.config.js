@@ -14,5 +14,17 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"),require("daisyui")],
+  
+  /* Config DaisyUI */
+  daisyui: {
+    styled: true,
+    themes: ["corporate", "bumblebee"],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "dark",
+  },
 }

@@ -1,27 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  #home-servicios {
+    scrollbar-width: thin;
+    scrollbar-color: #292929 #fafafa;
   }
-}
+
+  /* Chrome, Edge, and Safari */
+  #home-servicios::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  #home-servicios::-webkit-scrollbar-track {
+    background: #fafafa;
+  }
+
+  #home-servicios::-webkit-scrollbar-thumb {
+    background-color: #292929;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+  }
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Roboto", sans-serif;
+}
+
+
+.gradient-btn {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  color: #fff;
+}
+
+.gradient-blue {
+  background: linear-gradient(90deg, #4481eb 0%, #04befe 100%);
+}
+
+.gradient-black {
+  background: linear-gradient(98.73deg, #000000 0.36%, #434343 100%);
+}
+
+.glass-effect {
+  /* From https://css.glass */
+  background: rgba(27, 27, 27, 0.363);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
 }
