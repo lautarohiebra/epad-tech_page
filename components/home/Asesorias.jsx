@@ -4,10 +4,7 @@ import Image from "next/image";
 
 const Asesorias = () => {
   return (
-    <section
-      id="home-servicios"
-      className="h-screen bg-[url('/imgs/asesoriasImg.jpg')] overflow-y-auto"
-    >
+    <section>
       <div className="w-full mx-auto p-5 bg-neutral-focus">
         <h3 className="text-center text-2xl font-bold text-base-100">
           Nuestros servicios

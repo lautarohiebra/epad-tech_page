@@ -3,7 +3,7 @@ import Stat from "./Stat";
 
 const Stats = () => {
   return (
-    <section className="w-full px-3 flex flex-col xl:flex-row justify-between my-3">
+    <section className="w-full px-3 flex flex-col xl:flex-row justify-between bg-slate-100">
       <Stat
         stat="+30"
         header="Años de experiencia"

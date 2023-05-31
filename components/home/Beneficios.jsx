@@ -1,17 +1,16 @@
 import React from "react";
-import CTA from "../shared/CTA";
 import Beneficio from "./Beneficio";
 
 const Beneficios = () => {
   return (
-    <section>
+    <section className="bg-base-100">
       <div className="w-full mx-auto p-5 bg-neutral-focus">
         <h3 className="text-center text-xl font-bold text-base-100">
           Hacemos de ser fabricante una tarea más <span className="text-primary">sencilla</span> 
         </h3>
       </div>
 
-      <div className="container mx-auto bg-base-100 p-7 my-4">
+      <div className="container mx-auto bg-base-100 p-7">
         <div className=" flex-col md:flex-row-reverse">
           <div className="my-3">
             <h2 className="text-2xl text-neutral-focus font-semibold">
