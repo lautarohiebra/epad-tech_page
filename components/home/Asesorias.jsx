@@ -15,55 +15,58 @@ const Asesorias = () => {
       </div>
       <div className="px-5 py-7">
         {/* Card Importacion */}
-        <div className="card mx-auto max-w-[800px] lg:w-[800px] bg-neutral glass-effect m-3 shadow-md rounded-md hover:bg-neutral transition-all">
-          <h3 className="card-title px-8 py-3 text-base-100 rounded-t-md shadow-md">
-            <span className="text-primary bg-neutral px-1 rounded-md">
-              Importación
-            </span>{" "}
-            de componentes eléctronicos
-          </h3>
-          <figure className="w-full h-[250px] overflow-hidden">
-            <Image
-              src={"/imgs/provision.jpg"}
-              alt="Importación"
-              width={800}
-              height={200}
-            />
-          </figure>
-          <p className="card-body text-base-100">
-            Tenemos acceso a las MEJORES MARCAS de fabricantes de componentes
-            electrónicos del mundo y tenemos el conocimiento de las mejores
-            alternativas para IMPORTAR dichos componentes.
-          </p>
-          <p className="card-body text-base-100 pt-0">
-            Nuestra relación directa con los fabricantes y distribuidores
-            oficiales nos permite ofrecer costos razonables y confiabilidad para
-            todo el proceso.
-          </p>
+        <div className="card mx-auto max-w-[775px] min-h-[550px] glass m-2 shadow-md">
+          <div className="relative w-full h-56">
+            <figure className="h-96 w-full overflow-hidden">
+              <Image
+                src={"/imgs/provision.jpg"}
+                alt={"Provisión"}
+                fill="true"
+                style={{ objectFit: "cover" }}
+              />
+            </figure>
+          </div>
+          <div className="card-body">
+            <h2 className="text-2xl card-title">
+              Importación de componentes electrónicos
+            </h2>
+            <p>
+              Tenemos acceso a las MEJORES MARCAS de fabricantes de componentes
+              electrónicos del mundo y tenemos el conocimiento de las mejores
+              alternativas para IMPORTAR dichos componentes.
+            </p>
+            <p>
+              Nuestra relación directa con los fabricantes y distribuidores
+              oficiales nos permite ofrecer costos razonables y confiabilidad
+              para todo el proceso.
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Saber mas</button>
+            </div>
+          </div>
         </div>
         {/* Cards container */}
         <div className="flex flex-col flex-wrap lg:flex-row items-center justify-center py-5">
           {/* Cards asesorias */}
           {asesorias.map((asesoria) => (
-            <div
-              key={asesoria.header}
-              className="card w-96 glass-effect m-3 shadow-md rounded-md hover:bg-neutral transition-all"
-            >
-              <h3 className="card-title px-8 py-3 text-base-100 rounded-t-md shadow-md">
-                Asesoria en{" "}
-                <span className="text-primary bg-neutral px-1 rounded-md">
-                  {asesoria.header}
-                </span>{" "}
-              </h3>
-              <figure className="w-full h-[250px] overflow-hidden">
-                <Image
-                  src={asesoria.img}
-                  alt="Servicios imagen"
-                  width={400}
-                  height={200}
-                />
-              </figure>
-              <p className="card-body text-base-100">{asesoria.content}</p>
+            <div className="card max-w-[380px] min-h-[550px] glass m-2 shadow-md">
+              <div className="relative w-full h-56">
+                <figure className="h-96 w-full overflow-hidden">
+                  <Image
+                    src={asesoria.img}
+                    alt={asesoria.header}
+                    fill="true"
+                    style={{ objectFit: "cover" }}
+                  />
+                </figure>
+              </div>
+              <div className="card-body">
+                <h2 className="card-title">Asesoria en {asesoria.header}</h2>
+                <p>{asesoria.content}</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Saber mas</button>
+                </div>
+              </div>
             </div>
           ))}
         </div>
