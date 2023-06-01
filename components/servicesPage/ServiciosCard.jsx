@@ -1,16 +1,16 @@
 import React from "react";
 import { data } from "@/data/Servicios";
 
-const ServiciosCard = (props) => {
+const ServiciosCard = () => {
   return data.map((data) => (
-    <div className="center max-w-[700px] bg-base-100 p-5 mx-auto shadow-md mb-6">
+    <div key={data.header} className="center max-w-[700px] bg-base-100 p-5 mx-auto shadow-md mb-6">
       <h3 className="text-black mb-3 text-2xl font-medium underline underline-offset-2">
         {data.header}
       </h3>
       <p className="bg-slate-100 p-4 rounded-md shadow-sm mb-2">{data.text}</p>
       <ul className="list-disc px-5">
         { data.Items.map((item) =>(
-        <li>{item.content}</li>
+        <li key={item.itemNumber}>{item.content}</li>
         )) }
       </ul>
     </div>

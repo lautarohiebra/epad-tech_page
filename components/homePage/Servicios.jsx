@@ -48,7 +48,7 @@ const Servicios = () => {
           {/* Cards Servicios */}
           
           {ServiciosHome.map((servicio) => (
-            <div className="card max-w-[380px] min-h-[550px] glass m-2 shadow-md">
+            <div key={servicio.name} className="card max-w-[380px] min-h-[550px] glass m-2 shadow-md">
               <div className="relative w-full h-56">
                 <figure className="h-96 w-full overflow-hidden">
                   <Image
