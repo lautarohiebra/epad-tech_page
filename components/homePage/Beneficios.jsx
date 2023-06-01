@@ -6,7 +6,7 @@ const Beneficios = () => {
     <section className="bg-base-100">
       <div className="w-full mx-auto p-5 bg-neutral-focus">
         <h3 className="text-center text-xl font-bold text-base-100">
-          Hacemos de ser fabricante una tarea más <span className="text-primary">sencilla</span> 
+          Acompañamos al fabricante en  <span className="text-primary">todas las etapas</span> de su negocio.
         </h3>
       </div>
 

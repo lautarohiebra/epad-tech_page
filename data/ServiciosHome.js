@@ -9,6 +9,6 @@ export const ServiciosHome = [
     header: "COMEX",
     img: "/imgs/comex.jpg",
     content:
-      "Asesoramos a nuestros clientes para la exportación de sus productos al mundo a través de contactos con las agencias gubernamentales de promoción de los negocios en el exterior.",
+      "Asesoramos a nuestros clientes para la exportación de sus productos al mundo a través de contactos Agencias gubernamentales de promoción de negocios en el exterior.",
   },
 ];

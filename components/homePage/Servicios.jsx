@@ -16,7 +16,7 @@ const Servicios = () => {
           <div className="relative w-full h-56">
             <figure className="h-96 w-full overflow-hidden">
               <Image
-                src={"/imgs/provision.jpg"}
+                src={"/imgs/provision2.jpg"}
                 alt={"Provisión"}
                 fill="true"
                 style={{ objectFit: "cover" }}

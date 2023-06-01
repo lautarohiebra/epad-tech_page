@@ -19,8 +19,9 @@ export const data = [
     header: "COMEX",
     text: "Contamos con el conocimiento y la experiencia para importar insumos y exportar vuestros productos al mundo. Podemos vincularlos con las Agencias gubernamentales locales, las ferias sectoriales más importantes del mundo y ofrecemos la logística para iniciar el desafío exportador.",
     Items: [
-      { itemNumber: 1, content: "" },
-      { itemNumber: 2, content: "" },
+      { itemNumber: 1, content: "Asesoría especializada en comercio internacional." },
+      { itemNumber: 2, content: "Optimización de procesos logísticos y cadena de suministro." },
+      { itemNumber: 3, content: "Capacitación y actualización en tendencias de comercio exterior." },
     ],
   },
 ];

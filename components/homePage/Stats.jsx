@@ -7,22 +7,22 @@ const Stats = () => {
       <Stat
         stat="+30"
         header="Años de experiencia"
-        text="En el mercado de la provisión y logística de componentes electrónicos"
+        text="En el mercado de la provisión y logística de componentes electrónicos."
       />
       <Stat
         stat="+200"
         header="Clientes"
-        text="Trabajando con nosotros en todo el país"
+        text="Trabajando con nosotros en todo el país."
       />
       <Stat
         stat="+50"
-        header="Ferias y misiones comerciales"
-        text="Asistidas en todo el mundo"
+        header="Participaciones en Ferias y misiones comerciales"
+        text="En todo el mundo."
       />
       <Stat
         stat="+25"
         header="Países"
-        text="En los cuales E-p@d cuenta con presencia comercial"
+        text="En los cuales E-p@d cuenta con presencia comercial."
       />
     </section>
   );
