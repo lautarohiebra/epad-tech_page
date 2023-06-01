@@ -1,5 +1,5 @@
-import Ideas from "@/components/about/Ideas";
-import Valores from "@/components/about/Valores";
+import Ideas from "@/components/aboutPage/Ideas";
+import Valores from "@/components/aboutPage/Valores";
 import React from "react";
 
 const Nosotros = () => {

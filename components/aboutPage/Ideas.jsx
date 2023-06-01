@@ -5,7 +5,7 @@ const Ideas = () => {
   return (
     <div className="bg-base-100 rounded-md my-8 sm:my-8 shadow-md hover:-translate-y-1 transition-all max-w-3xl overflow-hidden mb-4">
       <div className="flex items-center mb-6 bg-neutral p-4">
-        <Image src={"/imgs/ideas.svg"} alt="Ideas" width={40} height={40} />
+        <Image src={"/imgs/ideas.svg"} alt="Nuestras ideas" width={40} height={40} />
         <h3 className="font-semibold text-base-100 text-xl md:text-3xl px-3">
           Nuestras Ideas
         </h3>

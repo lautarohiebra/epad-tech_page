@@ -18,7 +18,7 @@ const Mensaje = () => {
         
       </div>
       <div className="bg-base-100 w-full">
-        <div className="w-full h-72 bg-[url('/imgs/mensaje-bg.svg')] bg-cover flex flex-col">
+        <div className="w-full h-auto bg-[url('/imgs/mensaje-bg.svg')] bg-cover flex flex-col">
           <h4 className="text-center text-neutral text-4xl font-bold py-10">
             Para llegar al siguiente nivel!
           </h4>
@@ -27,7 +27,7 @@ const Mensaje = () => {
             src="/imgs/mensaje-icon.svg"
             alt="arrow-down"
           />
-          <div className="mx-auto mt-2">
+          <div className="mx-auto my-5">
             <CTA message="Trabaja con nosotros!" />
           </div>
         </div>

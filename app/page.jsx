@@ -1,19 +1,19 @@
-import Asesorias from "@/components/home/Asesorias";
-import AsesoriasBg from "@/components/home/AsesoriasBg";
-import Beneficios from "@/components/home/Beneficios";
-import Hero from "@/components/home/Hero";
-import Mensaje from "@/components/home/Mensaje";
-import Stats from "@/components/home/Stats";
+import Servicios from "@/components/homePage/Servicios";
+import FixedBg from "@/components/shared/FixedBg";
+import Beneficios from "@/components/homePage/Beneficios";
+import Hero from "@/components/homePage/Hero";
+import Mensaje from "@/components/homePage/Mensaje";
+import Stats from "@/components/homePage/Stats";
 
 
 const HomePage = () => {
   return (
     <>
-      <AsesoriasBg />
+      <FixedBg img="/imgs/asesoriasImg.jpg"/>
       <Hero />
       <Beneficios />
       <Stats />
-      <Asesorias />
+      <Servicios />
       <Mensaje />
     </>
   );

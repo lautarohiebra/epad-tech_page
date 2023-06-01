@@ -1,4 +1,4 @@
-export const asesorias = [
+export const ServiciosHome = [
   {
     header: "Diseño",
     img: "/imgs/design.jpg",

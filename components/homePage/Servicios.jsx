@@ -1,8 +1,8 @@
 import React from "react";
-import { asesorias } from "@/data/asesorias";
+import { ServiciosHome } from "@/data/ServiciosHome";
 import Image from "next/image";
 
-const Asesorias = () => {
+const Servicios = () => {
   return (
     <section>
       <div className="w-full mx-auto p-5 bg-neutral-focus">
@@ -24,7 +24,7 @@ const Asesorias = () => {
             </figure>
           </div>
           <div className="card-body">
-            <h2 className="text-2xl card-title">
+            <h2 className="text-2xl card-title text-base-200">
               Importación de componentes electrónicos
             </h2>
             <p>
@@ -44,22 +44,24 @@ const Asesorias = () => {
         </div>
         {/* Cards container */}
         <div className="flex flex-col flex-wrap lg:flex-row items-center justify-center py-5">
-          {/* Cards asesorias */}
-          {asesorias.map((asesoria) => (
+          
+          {/* Cards Servicios */}
+          
+          {ServiciosHome.map((servicio) => (
             <div className="card max-w-[380px] min-h-[550px] glass m-2 shadow-md">
               <div className="relative w-full h-56">
                 <figure className="h-96 w-full overflow-hidden">
                   <Image
-                    src={asesoria.img}
-                    alt={asesoria.header}
+                    src={servicio.img}
+                    alt={servicio.header}
                     fill="true"
                     style={{ objectFit: "cover" }}
                   />
                 </figure>
               </div>
               <div className="card-body">
-                <h2 className="card-title">Asesoria en {asesoria.header}</h2>
-                <p>{asesoria.content}</p>
+                <h2 className="card-title text-base-200">Asesoria en {servicio.header}</h2>
+                <p>{servicio.content}</p>
                 <div className="card-actions justify-end">
                   <button className="btn btn-primary">Saber mas</button>
                 </div>
@@ -72,4 +74,4 @@ const Asesorias = () => {
   );
 };
 
-export default Asesorias;
+export default Servicios;

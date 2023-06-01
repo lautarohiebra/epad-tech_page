@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero h-screen">
       <div className="hero-overlay grayscale bg-opacity-50 overflow-hidden">
         <video
-          src="/video/homeBgLow.mp4"
+          src="/video/homeBg.mp4"
           autoPlay
           loop
           muted

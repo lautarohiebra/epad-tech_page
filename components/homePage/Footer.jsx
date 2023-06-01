@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className="footer place-items-center p-10 bg-neutral-900 text-base-100">
         <div className="flex flex-col justify-center items-center text-center">
-          <Image src="/imgs/logo.svg" width={150} height={150} />
+          <Image src="/imgs/logo.svg" alt="Epad Tech Logo" width={150} height={150} />
           <p className="text-base-100">
             Brindando tecnología de calidad desde 2009
           </p>
