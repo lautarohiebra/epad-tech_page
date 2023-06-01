@@ -3,13 +3,14 @@ import { catalogo } from '@/data/Catalogo'
 
 const Catalogo = () => {
   return (
-    <div className='container mx-auto flex flex-row items-start align-middle justify-center flex-wrap'>
+    <div className='container mx-auto flex flex-row items-start align-middle justify-center flex-wrap my-4'>
       {catalogo.map((item, index) => (
-        <div key={index} className="card rounded-md glass m-3 min-w-96 overflow-hidden">
-          <h4 className='card-title p-3 bg-neutral text-base-100 '>{item.producto}</h4>
-          <ul className='m-2 p-3 card-body'>
+        <div key={index} className="card rounded-md glass m-3 w-[350px] overflow-hidden hover:-translate-y-3 transition-all">
+          <h4 className='p-3 bg-neutral font-semibold text-xl text-base-100 text-center'>{item.producto}</h4>
+          <h4 className='card-side px-5 pt-5 font-semibold text-lg'>Lineas:</h4>
+          <ul className='card-body font-medium '>
             {item.linea.map((elemento, index) => (
-              <li key={index}>{elemento}</li>
+              <li className=' rounded-sm pl-2 backdrop-brightness-150 hover:shadow-md transition-all' key={index}>{elemento}</li>
             ))}
           </ul>
         </div>

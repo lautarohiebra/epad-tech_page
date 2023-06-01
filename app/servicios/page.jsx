@@ -7,6 +7,7 @@ import Asesorias from "@/components/servicesPage/Asesorias";
 import Provision from "@/components/servicesPage/Provision";
 import CTA from "@/components/shared/CTA";
 import Catalogo from "@/components/servicesPage/Catalogo";
+import ServiciosBanner from "@/components/servicesPage/ServiciosBanner";
 
 const Servicios = () => {
   return (
@@ -23,7 +24,6 @@ const Servicios = () => {
         </h4>
         <CTA message="Trabaja con nosotros" />
       </div>
-      
       <Provision />
       <Catalogo />
     </section>

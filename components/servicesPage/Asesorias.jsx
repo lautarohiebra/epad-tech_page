@@ -4,7 +4,7 @@ import ServiciosCard from "./ServiciosCard";
 
 const Asesorias = () => {
   return (
-    <div className="flex flex-col w-full backdrop-grayscale ">
+    <div id="asesorias" className="flex flex-col w-full backdrop-grayscale pt-8">
       <ServiciosBanner text="Asesorias" />
       <ServiciosCard />
     </div>

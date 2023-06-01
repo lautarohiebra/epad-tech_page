@@ -1,6 +1,7 @@
 import React from "react";
 import { ServiciosHome } from "@/data/ServiciosHome";
 import Image from "next/image";
+import Link from "next/link";
 
 const Servicios = () => {
   return (
@@ -38,7 +39,7 @@ const Servicios = () => {
               para todo el proceso.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Saber mas</button>
+              <Link href={"/servicios/#provision"} className="btn btn-primary">Saber mas</Link>
             </div>
           </div>
         </div>
@@ -63,7 +64,7 @@ const Servicios = () => {
                 <h2 className="card-title text-base-200">Asesoria en {servicio.header}</h2>
                 <p>{servicio.content}</p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Saber mas</button>
+                  <Link href={"/servicios/#asesorias"} className="btn btn-primary">Saber mas</Link>
                 </div>
               </div>
             </div>

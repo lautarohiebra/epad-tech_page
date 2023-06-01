@@ -1,4 +1,4 @@
-import Servicios from "@/components/homePage/Servicios";
+import ServiciosHome from "@/components/homePage/ServiciosHome";
 import FixedBg from "@/components/shared/FixedBg";
 import Beneficios from "@/components/homePage/Beneficios";
 import Hero from "@/components/homePage/Hero";
@@ -13,7 +13,7 @@ const HomePage = () => {
       <Hero />
       <Beneficios />
       <Stats />
-      <Servicios />
+      <ServiciosHome />
       <Mensaje />
     </>
   );
