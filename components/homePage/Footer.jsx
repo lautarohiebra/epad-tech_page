@@ -18,7 +18,7 @@ const Footer = () => {
             <li>Avenida del Libertador 7790 10mo B.</li>
             <li>1429 - Buenos Aires</li>
             <li>Argentina</li>
-            <li>Tel: 005411 47018709</li>
+            <li>Tel: (0054)11-4701-8709</li>
             <li>mail: info@e-padtech.com.ar</li>
           </ul>
         </div>
