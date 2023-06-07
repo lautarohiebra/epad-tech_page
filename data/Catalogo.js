@@ -105,7 +105,7 @@ export const catalogo = [
     producto: "Varios",
     linea: [
         "Memorias",
-        "Polyswicth",
+        "Polyswitch",
         "Componentes RF",
         "Relays",
     ]
