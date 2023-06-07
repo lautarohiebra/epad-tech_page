@@ -92,9 +92,9 @@ export const catalogo = [
         "Murata",
     ]
   },{
-    producto: "Presets, Pote, Encoders",
+    producto: "Converter/Inverter",
     linea: [
-        "DC-DC Converter Mornsun"
+        "DC-DC AC-DC Converter Inverter Mornsun"
     ]
   },{
     producto: "Printers",

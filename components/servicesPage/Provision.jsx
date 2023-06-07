@@ -12,7 +12,7 @@ const Provision = () => {
         <div className="bg-slate-100 p-4 rounded-md shadow-sm mb-2">
           <p>
             Tenemos acceso a las principales marcas de componentes electrónicos
-            del mundo a través de nuestra relación con Avnet Electronics
+            del mundo.
           </p>
           <p>
             Estamos trabajando constantemente para incorporar nuevas
