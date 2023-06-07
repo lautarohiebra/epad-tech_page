@@ -61,7 +61,7 @@ const Servicios = () => {
                 </figure>
               </div>
               <div className="card-body">
-                <h2 className="card-title text-base-200">Asesoria en {servicio.header}</h2>
+                <h2 className="card-title text-base-200">Asesoría en {servicio.header}</h2>
                 <p>{servicio.content}</p>
                 <div className="card-actions justify-end">
                   <Link href={"/servicios/#asesorias"} className="btn btn-primary">Saber mas</Link>

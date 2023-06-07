@@ -4,7 +4,7 @@ import ServiciosBanner from "./ServiciosBanner";
 const Provision = () => {
   return (
     <div className="pt-10" id="provision">
-      <ServiciosBanner text="Importacion y Suministro"/>
+      <ServiciosBanner text="Importación y Suministro"/>
       <div className="center w-full bg-base-100 px-5 xl:p-14 mx-auto shadow-md">
         <h3 className=" text-black mb-3 text-2xl font-medium underline underline-offset-2">
           Nuestro Catálogo

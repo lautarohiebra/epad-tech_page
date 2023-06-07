@@ -11,7 +11,7 @@ const WhyEpad = () => {
   return (
     <div className="flex flex-col justify-center xl:p-14 align-middle center w-full bg-base-100 p-5 mx-auto shadow-md ">
       <h3 className=" text-black mb-3 text-2xl font-medium underline underline-offset-2">¿Por qué Ep@d?</h3>
-      <p className="bg-slate-100 p-4 rounded-md shadow-sm mb-5">En Epad-Tech, nos destacamos por nuestra trayectoria y experiencia comprobada en la industría electrónica. Ofrecemos soluciones personalizadas y eficientes para satisfacer las necesidades únicas de su empresa. Nuestro equipo altamente capacitado está comprometido en brindarle un servicio profesional y resultados de calidad. Confiabilidad, compromiso y excelencia son los pilares fundamentales en nuestra relación con los clientes. Estamos aquí para ser su socio confiable y ayudarle a alcanzar sus objetivos empresariales.</p>
+      <p className="bg-slate-100 p-4 rounded-md shadow-sm mb-5">En Epad-Tech, nos destacamos por nuestra trayectoria y experiencia comprobada en la industria electrónica. Ofrecemos soluciones personalizadas y eficientes para satisfacer las necesidades únicas de su empresa. Nuestro equipo altamente capacitado está comprometido en brindarle un servicio profesional y resultados de calidad. Confiabilidad, compromiso y excelencia son los pilares fundamentales en nuestra relación con los clientes. Estamos aquí para ser su socio confiable y ayudarle a alcanzar sus objetivos empresariales.</p>
       <ul className="list-disc px-5">
         {data.map((reason) => (
           <li className="text-lg " key={reason.title}>

@@ -19,8 +19,8 @@ const Servicios = () => {
       
       <div className=" px-5 py-8 text-center glass">
         <h4 className="text-neutral text-3xl font-bold pb-3">
-          Contacta con nosotros para{" "}
-          <span className="text-base-100">Asistencia personalizada!</span>
+          ¡Contacta con nosotros para{" "}
+          <span className="text-base-100">asistencia personalizada!</span>
         </h4>
         <CTA message="Trabaja con nosotros" />
       </div>

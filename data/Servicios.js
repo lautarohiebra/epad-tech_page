@@ -1,7 +1,7 @@
 export const data = [
   {
     header: "Diseño",
-    text: "Contamos con los conocimientos técnicos y logísticos necesarios para asesorar a nuestros clientes en el diseño de sus productos y la actualización de los mismos a las tecnologías mas actuales. Nuestro objetivo es desarrollar únicamente productos de alta tecnología, priorizando los mercados de la telemetría, seguridad y equipamiento médico, asegurando altos niveles de competitividad",
+    text: "Contamos con los conocimientos técnicos y logísticos necesarios para asesorar a nuestros clientes en el diseño de sus productos y la actualización de los mismos a las tecnologías más actuales. Nuestro objetivo es desarrollar únicamente productos de alta tecnología, priorizando los mercados de la telemetría, seguridad y equipamiento médico, asegurando altos niveles de competitividad",
     Items: [
       {
         itemNumber: 1,

@@ -15,7 +15,7 @@ const Valores = () => {
         <li className="text-neutral-600 text-lg"><SpanText text="Confidencialidad" />  y  <SpanText text="acuerdos NDA." /></li>
         <li className="text-neutral-600 text-lg"><SpanText text="Calidad asegurada" /> tanto en las actividades como en los recursos utilizados.</li>
         <li className="text-neutral-600 text-lg"><SpanText text="Propuestas claras" /> con absoluta <SpanText text="transparencia" /> en todo el proceso.</li>
-        <li className="text-neutral-600 text-lg"><SpanText text="Orientación al cliente" />. Nos enfocamos en comprender y adaptarnos a las necesidades de nuestros clientes para ofrecer las soluciones mas óptimas.</li>
+        <li className="text-neutral-600 text-lg"><SpanText text="Orientación al cliente" />. Nos enfocamos en comprender y adaptarnos a las necesidades de nuestros clientes para ofrecer las soluciones más óptimas.</li>
       </ul>
     </div>
   );
