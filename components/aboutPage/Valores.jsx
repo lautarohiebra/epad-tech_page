@@ -6,7 +6,7 @@ const Valores = () => {
   return (
     <div className=" bg-base-100 rounded-md shadow-md hover:-translate-y-1 transition-all max-w-3xl overflow-hidden">
       <div className="flex items-center mb-6 bg-neutral p-4">
-        <Image src={"/imgs/valores.svg"} alt="Nuestros valores" width={40} height={40} />
+        <Image src={"/imgs/valores.svg"} alt="Nuestros valores" width="40" height="40" />
         <h3 className="font-semibold text-base-100 text-3xl px-3">
           Nuestros valores
         </h3>

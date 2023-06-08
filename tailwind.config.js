@@ -19,7 +19,7 @@ module.exports = {
   /* Config DaisyUI */
   daisyui: {
     styled: true,
-    themes: ["corporate", "bumblebee"],
+    themes: ["corporate"],
     base: true,
     utils: true,
     logs: true,

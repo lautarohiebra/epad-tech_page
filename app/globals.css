@@ -6,21 +6,21 @@
 
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
-  #home-servicios {
+  #scroll {
     scrollbar-width: thin;
     scrollbar-color: #292929 #fafafa;
   }
 
   /* Chrome, Edge, and Safari */
-  #home-servicios::-webkit-scrollbar {
+  #scroll::-webkit-scrollbar {
     width: 11px;
   }
 
-  #home-servicios::-webkit-scrollbar-track {
+  #scroll::-webkit-scrollbar-track {
     background: #fafafa;
   }
 
-  #home-servicios::-webkit-scrollbar-thumb {
+  #scroll::-webkit-scrollbar-thumb {
     background-color: #292929;
     border-radius: 25px;
     border: 2px solid #ffffff;
