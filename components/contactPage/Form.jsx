@@ -17,7 +17,7 @@ export const Formulario = () => {
   };
 
   const sendEmail = () => {
-    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY).then(
+    emailjs.sendForm("service_td7klzr", "template_74u27dp", form.current, "aiSfXDnAcDz5ILNJE").then(
       (result) => {
         console.log("Formulario enviado correctamente");
       },
