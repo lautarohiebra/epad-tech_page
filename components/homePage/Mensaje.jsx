@@ -13,7 +13,7 @@ const Mensaje = () => {
           Sabemos de <span className="text-base-100">Logística</span> y <span className="text-base-100">Tecnología</span>,
         </h4>
         <h4 className="text-neutral text-3xl font-bold pb-3">
-          Sabemos lo que su negocio <span className="text-base-100">Necesita</span>...
+          Somos lo que su negocio <span className="text-base-100">Necesita</span>...
         </h4>
         
       </div>
@@ -28,7 +28,7 @@ const Mensaje = () => {
             alt="arrow-down"
           />
           <div className="mx-auto my-5">
-            <CTA message="Trabaja con nosotros!" />
+            <CTA message="Entra en contacto!" />
           </div>
         </div>
       </div>

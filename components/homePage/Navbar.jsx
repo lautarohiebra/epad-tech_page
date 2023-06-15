@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-16"></div>
-      <div className="w-full px-5 sm:px-1 bg-base-100 shadow-md fixed top-0 z-50">
-        <div className="navbar container lg mx-auto">
-          <div className="navbar-start">
+      <header className="w-full px-5 sm:px-1 bg-base-100 shadow-md fixed top-0 z-50">
+        <nav className="navbar container lg mx-auto">
+          <Link href="/" className="navbar-start">
             <Image src="/imgs/logo.svg" alt="Logo" width={100} height={100} />
-          </div>
+          </Link>
           <div className="text-neutral navbar-center hidden lg:flex">
             {/* Links Desktop */}
 
@@ -75,8 +75,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
+        </nav>
+      </header>
     </>
   );
 };

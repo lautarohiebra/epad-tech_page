@@ -17,7 +17,7 @@ const Nosotros = () => {
             capacitación continua en soluciones para la industria electrónica.
             Asesoramos en vuestro diseño, fabricación y logística de provisión.
           </p>
-          <CTA message="Trabaja con nosotros"/>
+          <CTA message="Entra en contacto"/>
         </div>
       </div>
     </div>

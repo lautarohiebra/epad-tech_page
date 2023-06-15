@@ -8,7 +8,7 @@
   /* Firefox */
   #scroll {
     scrollbar-width: thin;
-    scrollbar-color: #292929 #fafafa;
+    scrollbar-color: #1d1d1da9 #dbdbdb;
   }
 
   /* Chrome, Edge, and Safari */
@@ -21,9 +21,9 @@
   }
 
   #scroll::-webkit-scrollbar-thumb {
-    background-color: #292929;
+    background-color: #1d1d1da9;
     border-radius: 25px;
-    border: 2px solid #ffffff;
+    border: 2px solid #dbdbdb;
   }
 
 
@@ -42,12 +42,7 @@ body {
   background: linear-gradient(90deg, #4481eb 0%, #04befe 100%);
 }
 
-.gradient-black {
-  background: linear-gradient(98.73deg, #000000 0.36%, #434343 100%);
-}
-
 .glass-effect {
-  /* From https://css.glass */
   background: rgba(27, 27, 27, 0.363);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);

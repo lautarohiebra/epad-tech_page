@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" data-theme="corporate">
+    <html lang="es" id='scroll' data-theme="corporate">
       <body className={inter.className}>
         <Navbar/>
         {children}

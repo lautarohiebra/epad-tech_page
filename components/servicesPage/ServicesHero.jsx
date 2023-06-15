@@ -10,7 +10,7 @@ const ServicesHero = () => {
           <p className=" my-2 text-lg text-base-100 bg-gray-900 p-3 shadow-md max-w-xl">
             Contamos con la capacidad, experiencia y recursos necesarios para el asesoramiento y acompañamiento de nuestros clientes, sin importar la instancia de su proceso productivo.
           </p>
-          <CTA message="Trabaja con nosotros"/>
+          <CTA message="Entra en contacto"/>
         </div>
       </div>
     </div>

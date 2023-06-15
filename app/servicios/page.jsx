@@ -22,7 +22,7 @@ const Servicios = () => {
           ¡Contacta con nosotros para{" "}
           <span className="text-base-100">asistencia personalizada!</span>
         </h4>
-        <CTA message="Trabaja con nosotros" />
+        <CTA message="Entra en contacto" />
       </div>
       <Provision />
       <Catalogo />
