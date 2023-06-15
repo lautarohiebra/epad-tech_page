@@ -3,6 +3,7 @@
 import React, { useState, useRef } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
+import Script from "next/script";
 
 export const Formulario = () => {
   const [enviado, setEnviado] = useState(false);
@@ -17,20 +18,28 @@ export const Formulario = () => {
   };
 
   const sendEmail = () => {
-    emailjs.sendForm("service_td7klzr", "template_74u27dp", form.current, "aiSfXDnAcDz5ILNJE").then(
-      (result) => {
-        console.log("Formulario enviado correctamente");
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_td7klzr",
+        "template_74u27dp",
+        form.current,
+        "aiSfXDnAcDz5ILNJE"
+      )
+      .then(
+        (result) => {
+          console.log("Formulario enviado correctamente");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
-
   return (
+    
     <div className="z-20 flex flex-col bg-slate-100 shadow-md rounded-md p-7 -my-8 mb-10 mx-auto max-w-[680px]">
-      <h2 className="text-2xl font-semibold mb-4">Envíanos tu consulta</h2>
+      <Script src="https://www.google.com/recaptcha/api.js" async defer />
+      <h3 className="text-2xl font-semibold mb-4">Envíanos tu consulta</h3>
 
       <Formik
         initialValues={{
@@ -166,6 +175,10 @@ export const Formulario = () => {
               <p className="w-full text-left text-sm py-3 font-medium">
                 "*": Campos requeridos
               </p>
+              <div
+                className="g-recaptcha py-3"
+                data-sitekey="6Le_f58mAAAAAD8TNib2TSROs6RCNsbGQztn79DN"
+              ></div>
               <button
                 type="submit"
                 className="btn btn-outline btn-sm sm:btn-md"
